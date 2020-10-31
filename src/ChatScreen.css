@@ -1,0 +1,52 @@
+.chatScreen__message {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.chatScreen__text {
+  margin-left: 10px;
+  background-color: lightgray;
+  padding: 15px;
+  border-radius: 25px;
+}
+
+.chatScreen__textUser {
+  /* pushing something left --> margin-left: auto */
+  margin-left: auto;
+  background-color: #29b3cd;
+  padding: 15px;
+  border-radius: 25px;
+  color: white;
+}
+
+.chatScreen__timestamp {
+  text-align: center;
+  padding: 20px;
+  color: gray;
+}
+
+.chatScreen__input {
+  /* we are using display flex here as we need to use flex: 1 in input field */
+  display: flex;
+  padding: 5px;
+  /* stick to the bottom */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid lightgray;
+}
+
+.chatScreen__inputField {
+  flex: 1;
+  padding: 10px;
+  border: none;
+}
+
+.chatScreen__inputButton {
+  border: none;
+  margin-right: 20px;
+  background-color: white;
+  font-weight: bolder;
+  color: #fe3d71;
+}
